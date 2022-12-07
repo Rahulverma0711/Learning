@@ -1,0 +1,1 @@
+{"name":"Local: bfs","url":"/media/rahul/New Volume1/Main/Graph/bfs.cpp","tests":[{"id":1664267732343,"input":"7 8\n1 2\n1 4\n4 3\n2 3\n2 5\n5 6\n6 7\n5 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/rahul/New Volume1/Main/Graph/bfs.cpp","group":"local","local":true}

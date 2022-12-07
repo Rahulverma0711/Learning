@@ -1,0 +1,1 @@
+{"name":"Local: bubbleSort","url":"/media/rahul/New Volume1/Main/sorting/bubbleSort.cpp","tests":[{"id":1664216782759,"input":"5\n3 5 4 8 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/rahul/New Volume1/Main/sorting/bubbleSort.cpp","group":"local","local":true}
