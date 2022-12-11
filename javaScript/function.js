@@ -44,3 +44,15 @@
 // console.log(check(4));
 
 
+// ------------------------------------------------------------------------
+// FUNCTION INSIDE FUNCTION 
+
+// const myApp=function(){
+//     let insideFun=()=>{
+//         console.log("Hello from inside");
+//     }
+//     console.log("hello from myApp");
+//     insideFun();
+
+// }
+// myApp();
