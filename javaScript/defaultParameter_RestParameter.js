@@ -16,4 +16,27 @@
 
 // REST OPERATOR
 
+// function func1(a,b,...c){
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+// func1(1,2,3,4,5,6);
+// //"...c"->will pass it as a array
 
+//-------------------------------------------------------------------
+
+// PARAMETER DESTRUCTURING 
+
+// Lets us destructure object/arrays in the parameter only
+
+// const person={
+//     name:"Rahul Verma",
+//     age:23
+// }
+
+// function func({name,age}){
+//     console.log(name);
+//     console.log(age);
+// }
+// func(person);

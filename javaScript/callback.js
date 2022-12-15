@@ -1,0 +1,1 @@
+// We can pass even function as an argument 
