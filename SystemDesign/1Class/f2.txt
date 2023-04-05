@@ -1,0 +1,54 @@
+import java.util.*;
+import java.io.*;
+
+class Main{
+    static class Person{
+        String name;
+        int age;
+        void saysHi(){
+            System.out.println(this.name "[" this.age"] says hi");
+        }
+    }
+    public static void main(String[] args){
+       Person P1=new Person();
+       P1.name="Rahul";
+       P1.age=22;
+       P1.saysHi();
+     
+
+       Person P2=new Person();
+       P2.name="Shristi";
+       P2.age=19;
+       P2.saysHi(); 
+
+       Person temp = P1;
+       P1=P2;
+       P2=temp;
+
+       P1.saysHi;      ------->this will swap 
+       P2.saysHi;
+
+       swap(P1,P2); ------->this will not swap as the function is finished,then its works will also be finished;
+
+       P1.saysHi;
+       P2.saysHi;
+
+    }
+
+    static void swap(Person a,Person b){
+        Person t=a;              
+        a=b;
+        b=t;
+    }
+    static void swap1(Person a,Person b){   
+    ----->this can be also the way to swap .this way swaps in heap only. 
+
+        int t=a.age;
+        a.age=b.age;
+        b.age=t;
+
+        String n=a.name;
+        a.name=b.name;
+        b.name=n;
+    }
+}

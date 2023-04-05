@@ -1,0 +1,34 @@
+import java.util.*;
+import java.io.*;
+
+class Main{
+    static class BankAccount {
+        int anum;
+        int amount;
+        static int roi;
+
+        void announce(){
+            System.out.println(anum +" ,"+ amount + "," + roi);
+        }
+        
+    }
+    public static void main(String[] args){
+       BankAccount b1= new BankAccount();
+       b1.anum=445;
+       b1.amount=1000;
+       b1.roi=5;
+       
+       BankAccount b2= new BankAccount();
+       b2.anum=455;
+       b2.amount=2000;
+       b2.roi=6; ---->this will give us a warning as roi is a static which lives in a class not in a object;
+       BankAccount.roi=6; ---> this is the correct way to intialize static data member.
+
+       b1.announce();
+       b2.announce();
+
+       ----->after the execution of this two lines of the code roi will be changed from 5 to 6 .
+       
+
+    }
+}

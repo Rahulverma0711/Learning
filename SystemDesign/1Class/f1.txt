@@ -1,0 +1,25 @@
+import java.util.*;
+import java.io.*;
+
+class Main{
+    static class Person{
+        String name;
+        int age;
+        void saysHi(){
+            System.out.println(this.name "[" this.age"] says hi");
+        }
+    }
+    public static void main(String[] args){
+       Person P1=new Person();
+       P1.name="Rahul";
+       P1.age=22;
+       P1.saysHi();
+     
+
+       Person P2=new Person();
+       P2.name="Shristi";
+       P2.age=19;
+       P2.saysHi(); 
+
+    }
+}
