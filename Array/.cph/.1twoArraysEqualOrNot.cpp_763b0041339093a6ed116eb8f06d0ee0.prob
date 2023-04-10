@@ -1,0 +1,1 @@
+{"name":"Local: 1twoArraysEqualOrNot","url":"e:\\Main\\Array\\1twoArraysEqualOrNot.cpp","tests":[{"id":1680505577600,"input":"5\n1 2 5 4 0\n2 4 5 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Main\\Array\\1twoArraysEqualOrNot.cpp","group":"local","local":true}
